@@ -3,7 +3,7 @@
 
     </head>
     <body>
-        <h3>Welcome! Here are your answers:</h3> <br /> 
+        <h3>Welcome! Here is your Future Evaluation Results </h3> <br /> 
         Your favorite color:
         <br />  <?php 
         $color = $_GET["color"];

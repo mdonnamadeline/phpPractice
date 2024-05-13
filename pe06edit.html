@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .center-form {
+        width: 50%;
+    }
+    textarea {
+        width: 100%;
+        height: 50px;
+    }
+    input[type="text"], textarea {
+        display: block;
+        width: 100%;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 75px;
+        margin: 0 auto;
+    }
+</style>
+<body>
+    <form action="pe06edit.php" method="post">
+        Message ID: <input type="text" name="msgid" size="10"><br>
+        Guest Name: <input type="text" name="gname" size="50"><br>
+        Message: <textarea name="msg" cols="50" rows="10"></textarea><br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
